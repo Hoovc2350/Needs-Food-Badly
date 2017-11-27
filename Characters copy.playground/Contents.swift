@@ -33,18 +33,22 @@ class Character {
     
     func moveLeft() {
         positionX -= 1
+        print("(\(positionX), \(positionY))")
     }
     
     func moveRight() {
         positionX += 1
+        print("(\(positionX), \(positionY))")
     }
     
     func moveDown() {
         positionY -= 1
+        print("(\(positionX), \(positionY))")
     }
     
     func moveUp() {
         positionY += 1
+        print("(\(positionX), \(positionY))")
     }
     
     func getHit() {
@@ -52,6 +56,7 @@ class Character {
         if hp == 0 {
             die()
         }
+        print("Current HP: \(hp)")
     }
     
     func die() {
