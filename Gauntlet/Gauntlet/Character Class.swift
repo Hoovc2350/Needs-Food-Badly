@@ -35,6 +35,7 @@ class Character {
         self.def = def
         self.positionX = positionX
         self.positionY = positionY
+        print("(\(positionX), \(positionY))")
     }
     
     func moveLeft() {
@@ -88,3 +89,12 @@ class Enemy: Character {
         super.init(name: name, hp: hp, atk: atk, spd: spd, def: 0, positionX: positionX, positionY: positionY)
     }
 }
+
+// Playable Characters
+let warrior = Playable(name: "Warrior", hp: 1_000, atk: 3, spd: 1, def: 2, mag: 1)
+let wizard = Playable(name: "Wizard", hp: 1_000, atk: 1, spd: 2, def: 1, mag: 3)
+let elf = Playable(name: "Elf", hp: 1_000, atk: 1, spd: 3, def: 1, mag: 2)
+let valkyrie = Playable(name: "Valkyrie", hp: 1_000, atk: 2, spd: 1, def: 3, mag: 1)
+
+// Enemy Characters
+let ghost = Enemy(name: "Ghost", hp: 4, atk: 3, spd: 1)
