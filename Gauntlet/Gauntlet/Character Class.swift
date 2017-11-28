@@ -38,6 +38,7 @@ class Character {
         print("(\(positionX), \(positionY))")
     }
     
+    // movement functions
     func moveLeft() {
         positionX -= 1
         print("(\(positionX), \(positionY))")
@@ -58,6 +59,7 @@ class Character {
         print("(\(positionX), \(positionY))")
     }
     
+    // health functions
     func getHit() {
         hp -= 1
         if hp == 0 {
@@ -77,6 +79,11 @@ class Playable: Character {
     init(name: String, hp: Int, atk: Int, spd: Int, def: Int, mag: Int) {
         self.mag = mag
         super.init(name: name, hp: hp, atk: atk, spd: spd, def: def)
+    }
+    
+    init(name: String, hp: Int, atk: Int, spd: Int, def: Int, mag: Int, positionX: Int, positionY: Int) {
+        self.mag = mag
+        super.init(name: name, hp: hp, atk: atk, spd: spd, def: def, positionX: positionX, positionY: positionY)
     }
 }
 
