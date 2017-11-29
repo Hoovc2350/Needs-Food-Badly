@@ -16,3 +16,11 @@ import Foundation
    Thief's gold = 500 pts
    Finding exit = ?? pts
 */
+
+enum PointValue: Int {
+    case generator = 5
+    case enemy = 10
+    case food = 15
+    case treasure, key = 100
+    case exit = 500
+}
