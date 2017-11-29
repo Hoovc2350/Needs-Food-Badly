@@ -16,6 +16,7 @@
 		034363B71FCC4B710064FD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034363B61FCC4B710064FD9A /* Assets.xcassets */; };
 		034363BA1FCC4B710064FD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034363B81FCC4B710064FD9A /* LaunchScreen.storyboard */; };
 		034363C41FCC4C210064FD9A /* Character Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034363C31FCC4C210064FD9A /* Character Class.swift */; };
+		03B03D891FCEF2E100009BA9 /* Point Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B03D881FCEF2E100009BA9 /* Point Value.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		034363B91FCC4B710064FD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034363BB1FCC4B710064FD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		034363C31FCC4C210064FD9A /* Character Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Character Class.swift"; sourceTree = "<group>"; };
+		03B03D881FCEF2E100009BA9 /* Point Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Point Value.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				034363C31FCC4C210064FD9A /* Character Class.swift */,
+				03B03D881FCEF2E100009BA9 /* Point Value.swift */,
 				034363A91FCC4B710064FD9A /* AppDelegate.swift */,
 				034363AB1FCC4B710064FD9A /* GameScene.sks */,
 				034363AD1FCC4B710064FD9A /* Actions.sks */,
@@ -152,6 +155,7 @@
 			files = (
 				034363B01FCC4B710064FD9A /* GameScene.swift in Sources */,
 				034363B21FCC4B710064FD9A /* GameViewController.swift in Sources */,
+				03B03D891FCEF2E100009BA9 /* Point Value.swift in Sources */,
 				034363AA1FCC4B710064FD9A /* AppDelegate.swift in Sources */,
 				034363C41FCC4C210064FD9A /* Character Class.swift in Sources */,
 			);
@@ -319,6 +323,7 @@
 				034363C01FCC4B710064FD9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
