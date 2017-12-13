@@ -60,8 +60,11 @@ class Character {
     }
     
     // health functions
-    func getHit() {
-        hp -= 1
+    func getHit(enemy: Character) {
+        // damage = attack - deffence
+        let dammage = enemy.atk - def
+        hp -= dammage
+        
         if hp == 0 {
             die()
         }
